@@ -1,0 +1,23 @@
+package t10_abstract;
+
+public class Dog extends Animal {
+	// talk = "멍멍";
+	
+	void cry() {
+	}
+	
+	public Dog(String talk) {
+		this.talk = talk;
+	}
+	
+
+	@Override
+	public void sound() {
+		System.out.println("강아지 울음소리는 "+talk+"~~");
+	}
+	public void work() {
+		// sound();
+		move();
+	}
+
+}
