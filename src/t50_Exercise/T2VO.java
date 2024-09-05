@@ -39,6 +39,5 @@ public class T2VO {
 		if(sex==1 || sex==3) this.gender = "남자";
 		else this.gender = "여자";
 	}
-	
-	
+	System.out.println("업데이트");
 }
