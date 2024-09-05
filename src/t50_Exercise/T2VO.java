@@ -40,4 +40,5 @@ public class T2VO {
 		else this.gender = "여자";
 	}
 	System.out.println("업데이트");
+	System.out.println("업데이트2");
 }
